@@ -20,7 +20,10 @@ trait HasInteractionListeners
     {
         $reflected = new ReflectionClosure($listenerClosure);
         $attributes = $reflected->getStaticVariables();
-        return $this->laravel->make($attributes['listener']);
+        
+        if (is_string($attributes['listener'])) return $this->laravel->make($attributes['listener']);
+
+        return null;
     }
 
     protected function getListenersFor(string $eventClass): array
