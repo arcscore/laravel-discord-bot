@@ -20,8 +20,7 @@ trait HasInteractionListeners
     {
         $reflected = new ReflectionClosure($listenerClosure);
         $attributes = $reflected->getStaticVariables();
-
-        // Workaround to skip the Telescope EventWatcher
+        
         if (is_string($attributes['listener'])) return $this->laravel->make($attributes['listener']);
 
         return null;
