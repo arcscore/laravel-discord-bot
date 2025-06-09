@@ -10,6 +10,9 @@ A robust Discord messaging integration for Laravel
 ---
 ### About
 
+Forked from nwilging/laravel-discord-bot to add a workaround to ignore the Telescope Event Watcher when finding listeners
+https://github.com/nwilging/laravel-discord-bot
+
 This package provides a notification channel to send messages to Discord, as well as a suite of tools, services,
 and components that will help you to build rich-text messages as well as handle
 [Discord Interactions](https://discord.com/developers/docs/interactions/receiving-and-responding).

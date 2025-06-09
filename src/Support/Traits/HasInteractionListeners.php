@@ -20,7 +20,11 @@ trait HasInteractionListeners
     {
         $reflected = new ReflectionClosure($listenerClosure);
         $attributes = $reflected->getStaticVariables();
-        return $this->laravel->make($attributes['listener']);
+
+        // Changed to ignore Telescope Event Watcher which presents as an Array instead of a class string in the listener list
+        if (is_string($attributes['listener'])) return $this->laravel->make($attributes['listener']);
+
+        return null;
     }
 
     protected function getListenersFor(string $eventClass): array
