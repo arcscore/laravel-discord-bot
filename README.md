@@ -1,10 +1,14 @@
 # Laravel Discord Bot
 A robust Discord messaging integration for Laravel
 
+![Tests](https://github.com/nwilging/laravel-discord-bot/actions/workflows/main-branch.yml/badge.svg?branch=main)
+![Coverage](./.github/coverage-badge.svg)
+[![Latest Stable Version](http://poser.pugx.org/nwilging/laravel-discord-bot/v)](https://packagist.org/packages/nwilging/laravel-discord-bot)
+[![License](http://poser.pugx.org/nwilging/laravel-discord-bot/license)](https://packagist.org/packages/nwilging/laravel-discord-bot)
+[![Total Downloads](http://poser.pugx.org/nwilging/laravel-discord-bot/downloads)](https://packagist.org/packages/nwilging/laravel-discord-bot)
+
 ---
 ### About
-
-This package is forked from mwilging/laravel-discord-bot to implement a workaround to allow Telescope Event Watcher to work in parallel with this package.  https://github.com/nwilging/laravel-discord-bot
 
 This package provides a notification channel to send messages to Discord, as well as a suite of tools, services,
 and components that will help you to build rich-text messages as well as handle
