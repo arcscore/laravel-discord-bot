@@ -1,15 +1,19 @@
 {
-    "name": "nwilging/laravel-discord-bot",
+    "name": "arcscore/laravel-discord-bot",
     "description": "A robust Discord messaging integration for Laravel",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Nwilging\\LaravelDiscordBot\\": "src/",
-            "Nwilging\\LaravelDiscordBotTests\\": "tests/"
+            "Arcscore\\LaravelDiscordBot\\": "src/",
+            "Arcscore\\LaravelDiscordBotTests\\": "tests/"
         }
     },
     "authors": [
+        {
+            "name": "Arcscore",
+            "email": "github@arcscore.com"
+        },
         {
             "name": "Nicole Wilging",
             "email": "nicole@wilging.com"
@@ -24,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Nwilging\\LaravelDiscordBot\\Providers\\DiscordBotServiceProvider"
+                "Arcscore\\LaravelDiscordBot\\Providers\\DiscordBotServiceProvider"
             ]
         }
     },
