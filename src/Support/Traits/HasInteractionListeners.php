@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Traits;
+namespace Arcscore\LaravelDiscordBot\Support\Traits;
 
 use Illuminate\Contracts\Events\Dispatcher as EventDispatcher;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Http\Request;
 use Laravel\SerializableClosure\Support\ReflectionClosure;
-use Nwilging\LaravelDiscordBot\Events\AbstractInteractionEvent;
-use Nwilging\LaravelDiscordBot\Support\Interactions\DiscordInteractionResponse;
+use Arcscore\LaravelDiscordBot\Events\AbstractInteractionEvent;
+use Arcscore\LaravelDiscordBot\Support\Interactions\DiscordInteractionResponse;
 
 trait HasInteractionListeners
 {

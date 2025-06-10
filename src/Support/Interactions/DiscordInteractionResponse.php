@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Interactions;
+namespace Arcscore\LaravelDiscordBot\Support\Interactions;
 
 use Illuminate\Contracts\Support\Arrayable;
 

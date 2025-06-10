@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Commands;
+namespace Arcscore\LaravelDiscordBot\Support\Commands;
 
-use Nwilging\LaravelDiscordBot\Support\Command;
-use Nwilging\LaravelDiscordBot\Support\Traits\ApplicationCommand\HasOptions;
-use Nwilging\LaravelDiscordBot\Support\Traits\MergesArrays;
+use Arcscore\LaravelDiscordBot\Support\Command;
+use Arcscore\LaravelDiscordBot\Support\Traits\ApplicationCommand\HasOptions;
+use Arcscore\LaravelDiscordBot\Support\Traits\MergesArrays;
 
 class SlashCommand extends Command
 {

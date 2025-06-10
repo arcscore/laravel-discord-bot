@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Traits;
+namespace Arcscore\LaravelDiscordBot\Support\Traits;
 
-use Nwilging\LaravelDiscordBot\Support\Objects\EmojiObject;
+use Arcscore\LaravelDiscordBot\Support\Objects\EmojiObject;
 
 trait HasEmojiObject
 {

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Providers;
+namespace Arcscore\LaravelDiscordBot\Providers;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -9,16 +9,16 @@ use Illuminate\Contracts\Config\Repository as Config;
 use Illuminate\Notifications\ChannelManager;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\ServiceProvider;
-use Nwilging\LaravelDiscordBot\Channels\DiscordNotificationChannel;
-use Nwilging\LaravelDiscordBot\Contracts\Channels\DiscordNotificationChannelContract;
-use Nwilging\LaravelDiscordBot\Contracts\Services\DiscordApiServiceContract;
-use Nwilging\LaravelDiscordBot\Contracts\Services\DiscordApplicationCommandServiceContract;
-use Nwilging\LaravelDiscordBot\Contracts\Services\DiscordInteractionServiceContract;
-use Nwilging\LaravelDiscordBot\Services\DiscordApiService;
-use Nwilging\LaravelDiscordBot\Services\DiscordApplicationCommandService;
-use Nwilging\LaravelDiscordBot\Services\DiscordInteractionService;
-use Nwilging\LaravelDiscordBot\Support\Interactions\Handlers\ApplicationCommandHandler;
-use Nwilging\LaravelDiscordBot\Support\Interactions\Handlers\MessageComponentInteractionHandler;
+use Arcscore\LaravelDiscordBot\Channels\DiscordNotificationChannel;
+use Arcscore\LaravelDiscordBot\Contracts\Channels\DiscordNotificationChannelContract;
+use Arcscore\LaravelDiscordBot\Contracts\Services\DiscordApiServiceContract;
+use Arcscore\LaravelDiscordBot\Contracts\Services\DiscordApplicationCommandServiceContract;
+use Arcscore\LaravelDiscordBot\Contracts\Services\DiscordInteractionServiceContract;
+use Arcscore\LaravelDiscordBot\Services\DiscordApiService;
+use Arcscore\LaravelDiscordBot\Services\DiscordApplicationCommandService;
+use Arcscore\LaravelDiscordBot\Services\DiscordInteractionService;
+use Arcscore\LaravelDiscordBot\Support\Interactions\Handlers\ApplicationCommandHandler;
+use Arcscore\LaravelDiscordBot\Support\Interactions\Handlers\MessageComponentInteractionHandler;
 
 class DiscordBotServiceProvider extends ServiceProvider
 {

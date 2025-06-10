@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support;
+namespace Arcscore\LaravelDiscordBot\Support;
 
 use Illuminate\Contracts\Support\Arrayable;
-use Nwilging\LaravelDiscordBot\Support\Traits\FiltersRecursive;
+use Arcscore\LaravelDiscordBot\Support\Traits\FiltersRecursive;
 
 /**
  * Abstract Message Component

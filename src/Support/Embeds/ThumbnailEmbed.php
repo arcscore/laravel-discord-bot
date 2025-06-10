@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Embeds;
+namespace Arcscore\LaravelDiscordBot\Support\Embeds;
 
 /**
  * Thumbnail Embed

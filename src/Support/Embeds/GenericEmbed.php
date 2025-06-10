@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Embeds;
+namespace Arcscore\LaravelDiscordBot\Support\Embeds;
 
-use Nwilging\LaravelDiscordBot\Support\Embed;
-use Nwilging\LaravelDiscordBot\Support\Traits\MergesArrays;
+use Arcscore\LaravelDiscordBot\Support\Embed;
+use Arcscore\LaravelDiscordBot\Support\Traits\MergesArrays;
 
 /**
  * Generic Embed - Represents the generic "rich" embed type

@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Commands\Options;
+namespace Arcscore\LaravelDiscordBot\Support\Commands\Options;
 
-use Nwilging\LaravelDiscordBot\Support\Commands\CommandOption;
-use Nwilging\LaravelDiscordBot\Support\Traits\ApplicationCommand\HasAutoComplete;
-use Nwilging\LaravelDiscordBot\Support\Traits\ApplicationCommand\HasChoices;
-use Nwilging\LaravelDiscordBot\Support\Traits\MergesArrays;
+use Arcscore\LaravelDiscordBot\Support\Commands\CommandOption;
+use Arcscore\LaravelDiscordBot\Support\Traits\ApplicationCommand\HasAutoComplete;
+use Arcscore\LaravelDiscordBot\Support\Traits\ApplicationCommand\HasChoices;
+use Arcscore\LaravelDiscordBot\Support\Traits\MergesArrays;
 
 class IntegerOption extends CommandOption
 {

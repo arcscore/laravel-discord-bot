@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Contracts\Services;
+namespace Arcscore\LaravelDiscordBot\Contracts\Services;
 
-use Nwilging\LaravelDiscordBot\Support\Command;
+use Arcscore\LaravelDiscordBot\Support\Command;
 
 interface DiscordApplicationCommandServiceContract
 {

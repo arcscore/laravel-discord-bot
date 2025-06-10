@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Objects;
+namespace Arcscore\LaravelDiscordBot\Support\Objects;
 
-use Nwilging\LaravelDiscordBot\Support\SupportObject;
-use Nwilging\LaravelDiscordBot\Support\Traits\HasEmojiObject;
-use Nwilging\LaravelDiscordBot\Support\Traits\MergesArrays;
+use Arcscore\LaravelDiscordBot\Support\SupportObject;
+use Arcscore\LaravelDiscordBot\Support\Traits\HasEmojiObject;
+use Arcscore\LaravelDiscordBot\Support\Traits\MergesArrays;
 
 /**
  * Select Option Object

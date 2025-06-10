@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBotTests\Traits;
+namespace Arcscore\LaravelDiscordBotTests\Traits;
 
-use Nwilging\LaravelDiscordBot\Support\Commands\CommandOption;
+use Arcscore\LaravelDiscordBot\Support\Commands\CommandOption;
 
 trait BasicCommandOptionTests
 {

@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Contracts\Services;
+namespace Arcscore\LaravelDiscordBot\Contracts\Services;
 
 use Illuminate\Http\Request;
-use Nwilging\LaravelDiscordBot\Support\Interactions\DiscordInteractionResponse;
+use Arcscore\LaravelDiscordBot\Support\Interactions\DiscordInteractionResponse;
 
 interface DiscordInteractionServiceContract
 {

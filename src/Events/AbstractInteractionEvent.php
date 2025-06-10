@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Events;
+namespace Arcscore\LaravelDiscordBot\Events;
 
 use Illuminate\Queue\SerializesModels;
 use Symfony\Component\HttpFoundation\ParameterBag;

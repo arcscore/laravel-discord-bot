@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Services;
+namespace Arcscore\LaravelDiscordBot\Services;
 
 use GuzzleHttp\ClientInterface;
-use Nwilging\LaravelDiscordBot\Contracts\Services\DiscordApiServiceContract;
-use Nwilging\LaravelDiscordBot\Support\Component;
-use Nwilging\LaravelDiscordBot\Support\Embed;
-use Nwilging\LaravelDiscordBot\Support\Traits\DiscordApiService as IsApiService;
+use Arcscore\LaravelDiscordBot\Contracts\Services\DiscordApiServiceContract;
+use Arcscore\LaravelDiscordBot\Support\Component;
+use Arcscore\LaravelDiscordBot\Support\Embed;
+use Arcscore\LaravelDiscordBot\Support\Traits\DiscordApiService as IsApiService;
 
 class DiscordApiService implements DiscordApiServiceContract
 {

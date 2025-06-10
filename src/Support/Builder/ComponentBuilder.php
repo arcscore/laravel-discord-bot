@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Builder;
+namespace Arcscore\LaravelDiscordBot\Support\Builder;
 
-use Nwilging\LaravelDiscordBot\Support\Component;
-use Nwilging\LaravelDiscordBot\Support\Components\ActionRow;
-use Nwilging\LaravelDiscordBot\Support\Components\ButtonComponent;
-use Nwilging\LaravelDiscordBot\Support\Components\LinkButtonComponent;
-use Nwilging\LaravelDiscordBot\Support\Components\ParagraphTextInputComponent;
-use Nwilging\LaravelDiscordBot\Support\Components\SelectMenuComponent;
-use Nwilging\LaravelDiscordBot\Support\Components\ShortTextInputComponent;
-use Nwilging\LaravelDiscordBot\Support\Objects\SelectOptionObject;
+use Arcscore\LaravelDiscordBot\Support\Component;
+use Arcscore\LaravelDiscordBot\Support\Components\ActionRow;
+use Arcscore\LaravelDiscordBot\Support\Components\ButtonComponent;
+use Arcscore\LaravelDiscordBot\Support\Components\LinkButtonComponent;
+use Arcscore\LaravelDiscordBot\Support\Components\ParagraphTextInputComponent;
+use Arcscore\LaravelDiscordBot\Support\Components\SelectMenuComponent;
+use Arcscore\LaravelDiscordBot\Support\Components\ShortTextInputComponent;
+use Arcscore\LaravelDiscordBot\Support\Objects\SelectOptionObject;
 
 class ComponentBuilder
 {

@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Channels;
+namespace Arcscore\LaravelDiscordBot\Channels;
 
-use Nwilging\LaravelDiscordBot\Contracts\Channels\DiscordNotificationChannelContract;
-use Nwilging\LaravelDiscordBot\Contracts\Notifications\DiscordNotificationContract;
-use Nwilging\LaravelDiscordBot\Contracts\Services\DiscordApiServiceContract;
+use Arcscore\LaravelDiscordBot\Contracts\Channels\DiscordNotificationChannelContract;
+use Arcscore\LaravelDiscordBot\Contracts\Notifications\DiscordNotificationContract;
+use Arcscore\LaravelDiscordBot\Contracts\Services\DiscordApiServiceContract;
 
 class DiscordNotificationChannel implements DiscordNotificationChannelContract
 {

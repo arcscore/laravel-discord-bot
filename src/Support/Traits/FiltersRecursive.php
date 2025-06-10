@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Traits;
+namespace Arcscore\LaravelDiscordBot\Support\Traits;
 
 trait FiltersRecursive
 {

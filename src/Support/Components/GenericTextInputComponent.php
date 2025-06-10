@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Components;
+namespace Arcscore\LaravelDiscordBot\Support\Components;
 
-use Nwilging\LaravelDiscordBot\Support\Component;
-use Nwilging\LaravelDiscordBot\Support\Traits\FiltersRecursive;
+use Arcscore\LaravelDiscordBot\Support\Component;
+use Arcscore\LaravelDiscordBot\Support\Traits\FiltersRecursive;
 
 abstract class GenericTextInputComponent extends Component
 {

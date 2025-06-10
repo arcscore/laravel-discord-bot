@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Builder;
+namespace Arcscore\LaravelDiscordBot\Support\Builder;
 
-use Nwilging\LaravelDiscordBot\Contracts\Support\Builder\EmbedBuilderContract;
-use Nwilging\LaravelDiscordBot\Support\Embed;
-use Nwilging\LaravelDiscordBot\Support\Embeds\AuthorEmbed;
-use Nwilging\LaravelDiscordBot\Support\Embeds\FooterEmbed;
-use Nwilging\LaravelDiscordBot\Support\Embeds\ImageEmbed;
-use Nwilging\LaravelDiscordBot\Support\Embeds\ProviderEmbed;
-use Nwilging\LaravelDiscordBot\Support\Embeds\ThumbnailEmbed;
-use Nwilging\LaravelDiscordBot\Support\Embeds\VideoEmbed;
+use Arcscore\LaravelDiscordBot\Contracts\Support\Builder\EmbedBuilderContract;
+use Arcscore\LaravelDiscordBot\Support\Embed;
+use Arcscore\LaravelDiscordBot\Support\Embeds\AuthorEmbed;
+use Arcscore\LaravelDiscordBot\Support\Embeds\FooterEmbed;
+use Arcscore\LaravelDiscordBot\Support\Embeds\ImageEmbed;
+use Arcscore\LaravelDiscordBot\Support\Embeds\ProviderEmbed;
+use Arcscore\LaravelDiscordBot\Support\Embeds\ThumbnailEmbed;
+use Arcscore\LaravelDiscordBot\Support\Embeds\VideoEmbed;
 
 class EmbedBuilder implements EmbedBuilderContract
 {

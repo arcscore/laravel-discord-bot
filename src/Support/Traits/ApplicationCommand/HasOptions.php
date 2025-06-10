@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Traits\ApplicationCommand;
+namespace Arcscore\LaravelDiscordBot\Support\Traits\ApplicationCommand;
 
-use Nwilging\LaravelDiscordBot\Support\Commands\CommandOption;
+use Arcscore\LaravelDiscordBot\Support\Commands\CommandOption;
 
 trait HasOptions
 {

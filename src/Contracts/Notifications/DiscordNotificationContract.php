@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Contracts\Notifications;
+namespace Arcscore\LaravelDiscordBot\Contracts\Notifications;
 
 interface DiscordNotificationContract
 {

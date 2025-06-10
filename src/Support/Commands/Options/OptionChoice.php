@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Commands\Options;
+namespace Arcscore\LaravelDiscordBot\Support\Commands\Options;
 
 use Illuminate\Contracts\Support\Arrayable;
-use Nwilging\LaravelDiscordBot\Support\Traits\FiltersRecursive;
+use Arcscore\LaravelDiscordBot\Support\Traits\FiltersRecursive;
 
 /**
  * Application Command Option Choice

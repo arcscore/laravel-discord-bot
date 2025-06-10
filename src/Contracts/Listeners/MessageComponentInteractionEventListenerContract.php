@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Contracts\Listeners;
+namespace Arcscore\LaravelDiscordBot\Contracts\Listeners;
 
-use Nwilging\LaravelDiscordBot\Events\MessageComponentInteractionEvent;
-use Nwilging\LaravelDiscordBot\Support\Interactions\InteractionHandler;
+use Arcscore\LaravelDiscordBot\Events\MessageComponentInteractionEvent;
+use Arcscore\LaravelDiscordBot\Support\Interactions\InteractionHandler;
 
 interface MessageComponentInteractionEventListenerContract
 {

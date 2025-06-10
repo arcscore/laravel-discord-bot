@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Commands;
+namespace Arcscore\LaravelDiscordBot\Support\Commands;
 
-use Nwilging\LaravelDiscordBot\Support\Command;
-use Nwilging\LaravelDiscordBot\Support\Traits\MergesArrays;
+use Arcscore\LaravelDiscordBot\Support\Command;
+use Arcscore\LaravelDiscordBot\Support\Traits\MergesArrays;
 
 class MessageCommand extends Command
 {

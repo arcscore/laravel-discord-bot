@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Traits\ApplicationCommand;
+namespace Arcscore\LaravelDiscordBot\Support\Traits\ApplicationCommand;
 
 trait HasAutoComplete
 {

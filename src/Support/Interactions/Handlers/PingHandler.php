@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Support\Interactions\Handlers;
+namespace Arcscore\LaravelDiscordBot\Support\Interactions\Handlers;
 
-use Nwilging\LaravelDiscordBot\Support\Interactions\DiscordInteractionResponse;
-use Nwilging\LaravelDiscordBot\Support\Interactions\InteractionHandler;
+use Arcscore\LaravelDiscordBot\Support\Interactions\DiscordInteractionResponse;
+use Arcscore\LaravelDiscordBot\Support\Interactions\InteractionHandler;
 
 class PingHandler extends InteractionHandler
 {

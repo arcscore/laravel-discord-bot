@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Nwilging\LaravelDiscordBot\Services;
+namespace Arcscore\LaravelDiscordBot\Services;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
-use Nwilging\LaravelDiscordBot\Contracts\Services\DiscordInteractionServiceContract;
-use Nwilging\LaravelDiscordBot\Support\Interactions\DiscordInteractionResponse;
-use Nwilging\LaravelDiscordBot\Support\Interactions\Handlers\ApplicationCommandHandler;
-use Nwilging\LaravelDiscordBot\Support\Interactions\Handlers\MessageComponentInteractionHandler;
-use Nwilging\LaravelDiscordBot\Support\Interactions\Handlers\PingHandler;
-use Nwilging\LaravelDiscordBot\Support\Interactions\InteractionHandler;
+use Arcscore\LaravelDiscordBot\Contracts\Services\DiscordInteractionServiceContract;
+use Arcscore\LaravelDiscordBot\Support\Interactions\DiscordInteractionResponse;
+use Arcscore\LaravelDiscordBot\Support\Interactions\Handlers\ApplicationCommandHandler;
+use Arcscore\LaravelDiscordBot\Support\Interactions\Handlers\MessageComponentInteractionHandler;
+use Arcscore\LaravelDiscordBot\Support\Interactions\Handlers\PingHandler;
+use Arcscore\LaravelDiscordBot\Support\Interactions\InteractionHandler;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException;
 
